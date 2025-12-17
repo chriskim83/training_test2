@@ -1,20 +1,24 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <string.h>
 
 int sub(int a, int b)
 {
 	return a-b;
 }
+int main(void)
+{
+	printf("sub result =%d\n", sub(5,3));
+=======
 
 int add(int a , int b)
 {
 	return a+b;
 }
-
 int main(void)
 {
 	printf("add=%d\n", add(5,5));
-	printf("sub=%d\n", sub(5,3));
 
+>>>>>>> 73a489dcddad8d25902a9c8bee6c5bde00abb8e3
 	return 0;
 }
